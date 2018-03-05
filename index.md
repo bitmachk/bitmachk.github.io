@@ -2,6 +2,8 @@
 
 here's a simple guideline for running your bitcoin machine...
 
+[bitcoin machine manufacturers](https://www.bitcoin.com/bitcoin-atm-manufacturers)
+
 the first thing to do is to get a good location for installing your machine
 
 ![hotspot](https://bitmachk.github.io/images/hotspot.png)
