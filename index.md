@@ -2,10 +2,13 @@
 
 here's a simple guideline for running your bitcoin machine...
 
-you can check the recent available manufacturers from the link below; here we use Lamassu as an example
+you can check the recent available manufacturers from the link below
 ```
 https://www.bitcoin.com/bitcoin-atm-manufacturers
 ```
+
+here we use Lamassu as an example
+
 
 the first thing to do is to get a good location for installing your machine
 
@@ -14,12 +17,10 @@ the first thing to do is to get a good location for installing your machine
 after setuping your hardware, the next thing your gonna to do is to config your admin server
 
 
-
 login to your server's via the terminal
 ```
 ssh root@<copied ip>
 ```
-
 
 ![admin panel](https://bitmachk.github.io/images/admin.png)
 
