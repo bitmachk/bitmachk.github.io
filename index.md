@@ -14,7 +14,7 @@ the first thing to do is to get a good location for installing your machine
 
 ![hotspot](https://bitmachk.github.io/images/hotspot.png)
 
-after setuping your hardware, the next thing your gonna to do is to config your admin server
+after setuping your hardware, the next thing your gonna do is to config your admin server
 
 
 login to your server's via the terminal
@@ -32,4 +32,4 @@ curl -sS https://raw.githubusercontent.com/lamassu/lamassu-install/nextgen/insta
 
 setup your wallet(s) and backup your private key(s)
 
-ok, all done! ready to go!
+ok, all done! ready to go?!!
