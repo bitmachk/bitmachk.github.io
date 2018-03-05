@@ -2,11 +2,12 @@
 
 here's a simple guideline for running your bitcoin machine...
 
-the first thing to do is to get a good location for putting your machine
+the first thing to do is to get a good location for installing your machine
 
 ![hotspot](https://bitmachk.github.io/images/hotspot.png)
 
-after setup your hardware, the next thing your gonna to do is to config your admin server
+after setuping your hardware, the next thing your gonna to do is to config your admin server
+
 
 
 login to your server's via the terminal
