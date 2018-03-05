@@ -2,6 +2,7 @@
 
 here's a simple guideline for running your bitcoin machine...
 
+you can check the recent available manufacturers from the link below; here we use Lamassu as an example
 ```
 https://www.bitcoin.com/bitcoin-atm-manufacturers
 ```
