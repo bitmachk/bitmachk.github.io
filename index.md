@@ -17,7 +17,7 @@ the first thing to do is to get a good location for installing your machine
 after setuping your hardware, the next thing your gonna do is to config your admin server
 
 
-login to your server's via the terminal
+login to your server via the terminal
 ```
 ssh root@<copied ip>
 ```
