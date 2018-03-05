@@ -1,4 +1,4 @@
-## Welcome to BitMac
+# Welcome to BitMac
 
 
 
@@ -9,7 +9,7 @@
 ![admin panel](https://bitmachk.github.io/images/admin.png)
 
 
-#run install command from server side
+run install command from server side
 
 ```
 curl -sS https://raw.githubusercontent.com/lamassu/lamassu-install/nextgen/install | bash
