@@ -30,6 +30,6 @@ run install command from server side
 curl -sS https://raw.githubusercontent.com/lamassu/lamassu-install/nextgen/install | bash
 ```
 
-setup your wallet(s) and backup your wallet private key(s)
+setup your wallet(s) and backup your private key(s)
 
 ok, all done! ready to go!
