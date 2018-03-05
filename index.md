@@ -1,4 +1,4 @@
 ## Welcome to BitMac
 
-![hotspot](https://bitmachk.github.com/images/hotspot.png)
+![hotspot](https://bitmachk.github.io/images/hotspot.png)
 
