@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BitMac, Hong Kong</title>
+	<script src="../bin/js/currency.js"></script>
+	<link rel="stylesheet" href="../bin/js/jquery.mobile.css">
+	<script src="../bin/js/jquery.js"></script>
+	<script src="../bin/js/jquery.mobile.js"></script>
+
+	<script>
+		$( document ).on( "pagecreate", function() {
+			$( "#theme-selector input" ).on( "change", function( event ) {
+				var themeClass = $( "#theme-selector input:checked" ).attr( "id" );
+				$( "#testpage" ).removeClass( "ui-page-theme-a ui-page-theme-b" ).addClass( "ui-page-theme-" + themeClass );
+				$( "#ui-body-test" ).removeClass( "ui-body-a ui-body-b" ).addClass( "ui-body-" + themeClass );
+				$( "#ui-bar-test, #ui-bar-form" ).removeClass( "ui-bar-a ui-bar-b" ).addClass( "ui-bar-" + themeClass );
+				$( ".ui-collapsible-content" ).removeClass( "ui-body-a ui-body-b" ).addClass( "ui-body-" + themeClass );
+				$( ".theme" ).text( themeClass );
+			});
+		});
+	</script>
+</head>
+<body>
+
+<div data-role="page" id="testpage">
+
+	<div data-role="header">
+		<h1>BitMac</h1>
+    		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+	</div>
+
+	<div class="ui-content" role="main">
+
+		<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a>
+        
+        <form class="ui-mini">
+			<div class="ui-field-contain" id="theme-selector">
+				<fieldset data-role="controlgroup" data-type="horizontal">
+					<label for="a">Light</label>
+					<input type="radio" name="theme" id="a" checked>
+					<label for="b">Black</label>
+					<input type="radio" name="theme" id="b">
+				</fieldset>
+			</div>
+		</form>
+        
+		<p>Currently Available Crypto</p>
+
+	<table width="25%">
+		<tr>
+			<td>
+				<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="HKD" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="coinmarketcap-currency-widget" data-currencyid="131" data-base="HKD" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+			</td>
+		</tr>
+	</table>
+
+		<p>The Era of Digital Cash!</p>
+
+	</div>
+
+
+	<div data-role="panel" id="panel-push" data-display="push">
+		<ul data-role="listview">
+			<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+			<li data-icon="home"><a href="about.html" data-rel="dialog" data-transition="flip">About BitMac</a></li>
+			<li data-icon="location"><a href="location.html" data-rel="dialog" data-transition="flip">Locate our Machine</a></li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+</html>
