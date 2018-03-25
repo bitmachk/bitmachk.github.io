@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>BitMac, Hong Kong</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BitMac, Hong Kong</title>
 	<script src="js/ticker.js"></script>
 	<script src="js/jquery.js"></script>
 	<link rel="stylesheet" href="js/jquery.mobile.css">
 	<script src="js/jquery.mobile.js"></script>
-
-	<script>
-		$( document ).on( "pagecreate", function() {
-			$( "#theme-selector input" ).on( "change", function( event ) {
-				var themeClass = $( "#theme-selector input:checked" ).attr( "id" );
-				$( "#testpage" ).removeClass( "ui-page-theme-a ui-page-theme-b" ).addClass( "ui-page-theme-" + themeClass );
-				$( "#ui-body-test" ).removeClass( "ui-body-a ui-body-b" ).addClass( "ui-body-" + themeClass );
-				$( "#ui-bar-test, #ui-bar-form" ).removeClass( "ui-bar-a ui-bar-b" ).addClass( "ui-bar-" + themeClass );
-				$( ".ui-collapsible-content" ).removeClass( "ui-body-a ui-body-b" ).addClass( "ui-body-" + themeClass );
-				$( ".theme" ).text( themeClass );
-			});
-		});
-	</script>
+	<script src="js/page.js"></script>
+	<link rel="stylesheet" href="js/frame.css">
 </head>
 <body>
 
@@ -48,13 +37,20 @@
 
 		<p>The Era of Digital Cash!</p>
 
-	<table width="20%">
+
+	<table width="20%" id="rcorners1">
 		<tr>
-			<td>
+			<td colspan="2">
 				<div class="coinmarketcap-currency-widget" data-currencyid="131" data-base="HKD" data-secondary="USD"></div>
 			</td>
 		</tr>
+		<tr>
+			<td align="center"><p id="rcorners3"></p><p id="rcorners4"></p></td>
+			<td id="rcorners2"></td>
+		</tr>
+
 	</table>
+
 
 	</div>
 
@@ -62,8 +58,6 @@
 		<ul data-role="listview">
 			<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
 			<li data-icon="home"><a href="about.html" data-rel="dialog" data-transition="flip">About BitMac</a></li>
-			<li data-icon="carat-r"><a href="btc.html" data-rel="dialog" data-transition="flip">Bitcoin</a></li>
-			<li data-icon="carat-r"><a href="dash.html" data-rel="dialog" data-transition="flip">Dash</a></li>
 			<li data-icon="location"><a href="location.html" data-rel="dialog" data-transition="flip">Locate our Machine</a></li>
 		</ul>
 	</div>
