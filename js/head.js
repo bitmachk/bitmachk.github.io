@@ -1,0 +1,1 @@
+document.write('<title>BitMac, Hong Kong</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="js/ticker.js"></script><script src="js/jquery.js"></script><link rel="stylesheet" href="js/mobile.css"><script src="js/mobile.js"></script><script src="js/page.js"></script><link rel="stylesheet" href="js/frame.css">');
