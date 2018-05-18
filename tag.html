@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BitMac, Hong Kong</title>
+	<link rel="stylesheet" href="js/mobile.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/mobile.js"></script>
+</head>
+<body>
+
+	<div data-role="page" id="dialog-success" data-dom-cache="true">
+
+		<div data-role="header" data-theme="b">
+			<h1>Tag my Transaction</h1>
+		</div>
+
+		<div class="ui-content" role="main">
+			
+			<p>We accept small amount transaction(s)
+				<br>- Minimum $100 for both BTC & DASH
+			</p>
+
+			<p>Formula: market price [ticker: Coinbase] + exchange charge + dynamic transaction fee + fixed operation cost = amount shown
+				<br>- Exchange charge (roughly 4%)
+				<br>- Dynamic transaction fee [miner fee] (based on network status)
+				<br>- Fixed operation cost ($10) [temporarily waived for DASH]
+			</p>
+
+			<p align="center"><font size=1>&copy; 2018 BitMac, Hong Kong.</font></p>
+
+			<a href="index.html" class="ui-btn ui-corner-all ui-shadow ui-btn-b" data-rel="back">Take me Back</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="page-success"></div>
+
+</body>
+</html>
