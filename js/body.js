@@ -10,6 +10,5 @@ document.write('</td></tr><tr><td align="center"><p id="rcorners3"></p><p id="rc
 document.write('<div data-role="panel" id="panel-push" data-display="push"><ul data-role="listview">');
 document.write('<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>');
 document.write('<li data-icon="home"><a href="about.html" data-rel="dialog" data-transition="flip">About BitMac</a></li>');
-document.write('<li data-icon="info"><a href="notice.html" data-rel="dialog" data-transition="flip">Latest Notice</a></li>');
-document.write('<li data-icon="tag"><a href="tag.html" data-rel="dialog" data-transition="flip">Machine Tag</a></li>');
+document.write('<li data-icon="info"><a href="note.html" data-rel="dialog" data-transition="flip">Latest Notice</a></li>');
 document.write('<li data-icon="location"><a href="location.html" data-rel="dialog" data-transition="flip">Locate our Machine</a></li></ul></div></div>');
