@@ -1,0 +1,14 @@
+document.write('<div data-role="page" id="testpage"><div data-role="header"><h1>BitMac</h1>');
+document.write('<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a><button class="ui-btn-icon-right" onclick="window.location.href=`https://app.bitmac.org`;">Launch App</button></div><div class="ui-content" role="main">');
+document.write('<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a><form class="ui-mini">');
+document.write('<div class="ui-field-contain" id="theme-selector">');
+document.write('<fieldset data-role="controlgroup" data-type="horizontal"><label for="a">Light</label>');
+document.write('<input type="radio" name="theme" id="a" checked><label for="b">Black</label><input type="radio" name="theme" id="b"></fieldset></div></form><br>');
+document.write('<table width="20%" id="rcorners1" align="center"><tr><td colspan="2">');
+document.write('<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="HKD" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>');
+document.write('</td></tr><tr><td align="center"><p id="rcorners3"></p><p id="rcorners4"></p></td><td id="rcorners2"></td></tr></table></div>');
+document.write('<div data-role="panel" id="panel-push" data-display="push"><ul data-role="listview">');
+document.write('<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>');
+document.write('<li data-icon="home"><a href="about.html" data-rel="dialog" data-transition="flip">About BitMac</a></li>');
+document.write('<li data-icon="info"><a href="note.html" data-rel="dialog" data-transition="flip">Latest Notice</a></li>');
+document.write('<li data-icon="location"><a href="location.html" data-rel="dialog" data-transition="flip">Locate our Machine</a></li></ul></div></div>');
