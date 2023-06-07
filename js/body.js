@@ -1,5 +1,5 @@
 document.write('<div data-role="page" id="testpage"><div data-role="header"><h1>BitMac</h1>');
-document.write('<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a></div><div class="ui-content" role="main">');
+document.write('<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a><button class="ui-btn-icon-right" onclick="window.location.href=`https://app.bitmac.org`;">Launch App</button></div><div class="ui-content" role="main">');
 document.write('<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a><form class="ui-mini">');
 document.write('<div class="ui-field-contain" id="theme-selector">');
 document.write('<fieldset data-role="controlgroup" data-type="horizontal"><label for="a">Light</label>');
