@@ -3,12 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BitMac, Hong Kong</title>
+	<title>BitMac HK</title>
 	<script src="../js/ticker.js"></script>
 	<script src="../js/jquery.js"></script>
 	<link rel="stylesheet" href="../js/jquery.mobile.css">
 	<script src="../js/jquery.mobile.js"></script>
-
 	<script>
 		$( document ).on( "pagecreate", function() {
 			$( "#theme-selector input" ).on( "change", function( event ) {
@@ -29,10 +28,11 @@
 	<div data-role="header">
 		<h1>BitMac</h1>
     		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+		<button class="ui-btn-icon-right" onclick="window.location.href=`https://app.bitmac.org`;">Launch App</button>
 	</div>
 
 	<div class="ui-content" role="main">
-
+		
 		<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a>
         
         <form class="ui-mini">
@@ -44,7 +44,7 @@
 					<input type="radio" name="theme" id="b">
 				</fieldset>
 			</div>
-		</form>
+	</form>
 
 		<p>The Era of Digital Cash!</p>
 
