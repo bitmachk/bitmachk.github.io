@@ -1,0 +1,63 @@
+[
+{
+    "id": 1,
+    "title": "Do It Yourself (DIY)",
+    "sentence1": "This is a DIY hardware (cold) wallet/signer FREE course!📚",
+    "sentence2": "Super cool right? Let's begin our handy work!🔧",
+    "author": "φ"
+},
+{
+    "id": 2,
+    "title": "Hardware requirements",
+    "sentence1": "1) Raspberry pi zero v1.3 (recommended) or w v1.1 [with 2*20-pin header]🤖",
+    "sentence2": "2) Hat 240*240 LCD 1.3inch control panel🎮",
+    "sentence3": "3) Camera with short cable📷",
+    "file1": "a.svg",
+    "hash1": "bafybeibtiz75bjfds5ffrgg67xn3oneyffyxpf66vc3nv2hhpadccffm5u",
+    "file2": "b.svg",
+    "hash2": "bafybeibba6rsulplzw2peejah5qf2db3phdqeob5uh67qzuowbzivavshm",
+    "file3": "c.svg",
+    "hash3": "bafybeihf7hq32u7tagfjqbbo2cat2r3qsq33wa2qcw3od23bp46kaipdru"
+},
+{
+    "id": 3,
+    "title": "Open-sourced code",
+    "sentence1": "Obtain the source code from seed signer GitHub (download the most updated version)💻",
+    "sentence2": "Prepare a micro-SD card (with at least 128MB storage [for flashing image])💾"
+},
+{
+    "id": 4,
+    "title": "Getting ready",
+    "sentence1": "Reload the seed into the machine RAM📼",
+    "sentence2": "Scan QR-code (then enter BIP-39 passphrase [change the fingerprint] this is optional but recommended)",
+    "sentence3": "For generating seed phrases and making your own QR-code pad, please refer to the instructions below📄"
+},
+{
+    "id": 5,
+    "title": "Dice method for generating seed phrases",
+    "sentence1": "12-word (dice: 50 rolls)🎲",
+    "sentence2": "24-word (dice: 99 rolls)🎲",
+    "sentence3": "BIP-39 passphrase🔏"
+},
+{
+    "id": 6,
+    "title": "21*21 (for 12-word)",
+    "sentence1": "Compact QR code format template (21*21)",
+    "file": "21.svg",
+    "hash": "bafybeib5ewwgze7jotppjqd2tzno5epgn55ksnwdavdygwqp5smkyr5gwe"
+},
+{
+    "id": 7,
+    "title": "25*25 (for 24-word)",
+    "sentence1": "Compact QR code format template (25*25)",
+    "file": "25.svg",
+    "hash": "bafybeialot5lhl6jghd4jfylhzveaxksv6rtvbtntwmacuaz73ws5s2uu4"
+},
+{
+    "id": 8,
+    "title": "BIP-39 passphrase",
+    "sentence1": "Apply a BIP-39 passphrase (combine with text, number and special char) is highly recommended🔐",
+    "sentence2": "This is a more secure approach to avoid anyone retrieving your seed phrases simply by chance/luck!",
+    "author": "ψ"
+}
+]

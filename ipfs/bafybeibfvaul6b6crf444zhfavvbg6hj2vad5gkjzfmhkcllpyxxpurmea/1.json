@@ -1,0 +1,31 @@
+[
+{
+    "id": 1,
+    "enable": true,
+    "customize": false,
+    "title": "Buy Me a Coffee ☕️",
+    "price": 25000,
+    "address": "bc1qewje9kljdzap7vpmk8hjjsk97vmaud6mc37hea",
+    "taddress": "tb1qewje9kljdzap7vpmk8hjjsk97vmaud6mjh9yzw",
+    "hash": "bafybeidccnadzgokndmzgwxvlfvpdgykmhvj22mzsjrhmknyk3wz64uyiq"
+},
+{
+    "id": 2,
+    "enable": true,
+    "customize": false,
+    "title": "Buy Me a Meal 🍱",
+    "price": 50000,
+    "address": "bc1qj30xcn4gft68nn5k6la3yrz5ju942gy7mygs8k",
+    "taddress": "tb1qj30xcn4gft68nn5k6la3yrz5ju942gy73znru9",
+    "hash": "bafybeibmpgcmam65o5xp333ees7flbqjxfi2jxzmsdidu6qroc5rhejng4"
+},
+{
+    "id": 3,
+    "enable": true,
+    "customize": true,
+    "title": "Customized Amount ❤️",
+    "address": "bc1qrr3he3aqvnevdkrymkq3nu8xkwcezw3vlp03ud",
+    "taddress": "tb1qrr3he3aqvnevdkrymkq3nu8xkwcezw3v485z87",
+    "hash": "bafybeiep4b6ubf4ys5d2mgeehi7qfqkrvmvxi3kk2eotnlgtr3drncasrm"
+}
+]
