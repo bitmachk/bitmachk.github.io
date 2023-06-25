@@ -1,0 +1,25 @@
+[
+{
+    "id": 1,
+    "title": "Customize your SEED!",
+    "sentence1": "Is it possible for you to choose your own combinations of seed phrases📝? Although it is not recommended, the answer is yes🙌.",
+    "sentence2": "However, the last word serves as a checksum and cannot be chosen by you. While you do not define any of the other words actually, you must select them from the BIP39 wordlist, which consists of a total of 2048 words, with no words sharing the same first four characters 📖.",
+    "sentence3": "To calculate the checksum word, you have many options, i.e., manual calculation🧮️, or using tools available in seed signer, these tools offer features such as coin flip entropy, word selection entropy, or finalizing with zeros. In this session, we will demonstrate how you can generate the checksum word with a few lines of simple code.",
+    "sentence4": "The code utilized here is open source, allowing you to customize it according to your preferences. However, when executing the code, it is crucial to thoroughly test it for safety purposes. We recommend using a clean machine and performing the process offline. Additionally, remember to jot down your chosen word(s) and clear all electronic footprints👣🧹️ to prevent potential data leaks that could compromise your personalized wallet accidentally.",
+    "author": "φ"
+},
+{
+    "id": 2,
+    "title": "Resources",
+    "sentence1": "BIP39 wordlist from bitcoin GitHub via the link below (bip-0039/english.txt):",
+    "sentence2": "github.com/bitcoin/bips",
+    "sentence3": "Python code for checksum calculation via the link below (findlastword.py):",
+    "sentence4": "github.com/calcuis/checksum-last-word"
+},
+{
+    "id": 3,
+    "title": "Easy right?",
+    "sentence1": "Put english.txt and findlastword.py together, with command prompt, python findlastword.py, then enter your customized word list (separate word-by-word with space) and leave the question mark at the very end as the last word for checksum calculation, it will return a possible list of words for selection, you could mark it down physically (paper and pencil) 📝, avoid screenshotting or any digital form storage.",
+    "author": "ψ"
+}
+]
