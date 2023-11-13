@@ -10,6 +10,7 @@
 	<title>BitMac, Hong Kong</title>
 	<script src="../js/ticker.js"></script>
 	<script src="../js/jquery.js"></script>
+	<link rel="stylesheet" href="../js/frame.css">
 	<link rel="stylesheet" href="../js/jquery.mobile.css">
 	<script src="../js/jquery.mobile.js"></script>
 	<script>
@@ -52,12 +53,16 @@
 
 <!-- 		<p>The Era of Digital Cash!</p> -->
 
-	<table width="20%" align="center">
+	<table width="20%" align="center" id="rcorners1">
 		<tr>
-			<td>
+			<td colspan="2">
 <!-- 				<div class="coinmarketcap-currency-widget" data-currencyid="131" data-base="HKD" data-secondary="USD"></div> -->
-				<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="HKD" data-secondary="USD"></div>
+<!-- 				<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="HKD" data-secondary="USD"></div> -->
+				<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="HKD" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 			</td>
+		</tr>
+		<tr>
+			<td align="center"><p id="rcorners3"></p><p id="rcorners4"></p></td><td id="rcorners2"></td>
 		</tr>
 	</table>
 
